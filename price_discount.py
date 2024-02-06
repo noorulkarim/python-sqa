@@ -12,6 +12,6 @@ def price_discount(price, discount):
 
 
 price = int(input("Price: $ "))
-discount = int(input("Discount Rate:"))
+discount = int(input("Discount Rate: %"))
 
-print("The discounted rate is $", price_discount(price, discount))
+print("Price after ", discount, "% discount is $", int(price_discount(price, discount)))
