@@ -9,5 +9,4 @@
 sentence = input("Enter a sentence:")
 count = sentence.lower().count("python")
 
-if count != 0:
-    print("Python appeared ", count, " times")
+print("Python appeared ", count, " times")
